@@ -8,4 +8,7 @@ setup(name='rerldo',
       author_email='ali.abdulzhalilov@gmail.com',
       license='MIT',
       packages=['rerldo'],
+	  install_requires=[
+		'markdown',
+	  ],
       zip_safe=False)
