@@ -13,4 +13,7 @@ setup(name='rerldo',
 	  ],
 	  test_suite='nose.collector',
 	  tests_require=['nose'],
+	  entry_points = {
+		'console_scripts': ['rerldo-yup=rerldo.command_line:main']
+	  }
       zip_safe=False)
