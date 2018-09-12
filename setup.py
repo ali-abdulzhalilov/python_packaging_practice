@@ -11,4 +11,6 @@ setup(name='rerldo',
 	  install_requires=[
 		'markdown',
 	  ],
+	  test_suite='nose.collector',
+	  tests_require=['nose'],
       zip_safe=False)
