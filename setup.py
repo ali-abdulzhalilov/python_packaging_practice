@@ -15,5 +15,6 @@ setup(name='rerldo',
 	  tests_require=['nose'],
 	  entry_points = {
 		'console_scripts': ['rerldo-yup=rerldo.command_line:main']
-	  }
+	  },
+	  include_package_data=True,
       zip_safe=False)
